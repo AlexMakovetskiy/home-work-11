@@ -1,0 +1,32 @@
+.window {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.window__inner-element:first-child {
+    grid-area: 1 / 1 / 5 / 5;
+}
+.window__inner-element:nth-child(2) {
+    grid-area: 5 / 1 / 9 / 2;
+}
+.window__inner-element:nth-child(3) {
+    grid-area: 5 / 2 / 6 / 3;
+}
+.window__inner-element:nth-child(4) {
+    grid-area: 5 / 3 / 7 / 4;
+}
+.window__inner-element:nth-child(5) {
+    grid-area: 5 / 4 / 8 / 5;
+}
+.window__inner-element:nth-child(6) {
+    grid-area: 6 / 2 / 9 / 3;
+}
+.window__inner-element:nth-child(7) {
+    grid-area: 7 / 3 / 8 / 4;
+}
+.window__inner-element:nth-child(8) {
+    grid-area: 8 / 3 / 9 / 4;
+}
+.window__inner-element:last-child {
+    grid-area: 8 / 4 / 9 / 5;
+}
